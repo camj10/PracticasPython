@@ -1,0 +1,25 @@
+Cree un programa que permita ingresar el nombre, apellido,
+curso, porcentaje de asistencia y modalidad de clase de un alumno/a así
+como su puntaje en una materia determinada. El programa deberá verificar si
+la modalidad de clase es Presencial, Semi-Presencia o a Distancia.
+
+ Para evaluar la
+calificación y determinar si el alumno aprueba o no deberá cumplir con el
+porcentaje de asistencia.
+
+En caso de que sea Presencial se necesita un porcentaje de
+asistencia de al menos 80.
+En caso de que se Semi-Presencial el porcentaje de asistencia es
+de al menos 50
+En el caso de A distancia puede ser cero.
+
+Para determinar si un alumno/a aprueba o no deberá superar
+o igualar el puntaje mínimo establecido para su tipo de asistencia. Para
+aprobar una materia en el caso de los alumnos presenciales se necesita un
+porcentaje del 80%, para un alumno Semi-Presencial un 85% y para un alumno a
+distancia un 90% de exigencia.
+
+
+El programa deberá dar un informe de los datos recibidos a
+mas de informar si el alumno/a aprueba o no. En caso de no aprobar se deberá
+informar si es por falta de asistencia o por puntaje insuficiente.
