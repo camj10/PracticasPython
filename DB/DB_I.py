@@ -14,7 +14,7 @@ mycursor= mydb.cursor()
 condicion= int(input("Presione 1 para cargar datos: "))
 # Cargo mis datos en la DB
 while condicion:
-    seccionDato = input("Seccion (I-A-C-T): ").upper()#.upper() para pasar todo a minúscula
+    seccionDato = input("Seccion (I-A-C-T): ").upper()#.upper() para pasar todo a mayúscula
     sucursalDato = input("Sucursal (E-A-C): ").upper()
     sueldoDato = int(input("Sueldo: "))
     sql="INSERT INTO sueldo(seccion,sucursal,salario) values (%s,%s,%s)"
